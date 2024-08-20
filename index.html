@@ -1,0 +1,43 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BJS basic template</title>
+    <script src="scripts/model3d.js"></script>
+</head>
+<body>
+    <model-3d background-color="#ffffff" src="models/panda.glb" style="width:300px"></model-3d>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>model-viewer</title>
+    <script type="module"
+            src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+    <div>
+        <model-viewer src="https://rawcdn.githack.com/shahroozrex/3d/aa8bf38d633473d6939d41c6f234b8f71de3cc30/model.glb" style="width:500px;height:500px;"
+                      alt="dragon"
+                      auto-rotate
+                      camera-controls></model-viewer>
+    </div>
+
+    <div>
+        <model-viewer src="https://rawcdn.githack.com/shahroozrex/3d/608840820fb6f541e0e15049fe9cc1da09934585/panda.glb"
+                      alt="dragon"
+                      auto-rotate
+                      camera-controls></model-viewer>
+    </div>
+    <div>
+        <model-viewer src="https://rawcdn.githack.com/shahroozrex/3d/608840820fb6f541e0e15049fe9cc1da09934585/Shoe.glb"
+                      alt="dragon"
+                      auto-rotate
+                      camera-controls></model-viewer>
+    </div>
+</body>
+</html>
